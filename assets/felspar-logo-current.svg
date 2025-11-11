@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="felspar-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a9ff3c"/>
+      <stop offset="100%" stop-color="#66ff9a"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="80" height="80" rx="20" fill="url(#felspar-gradient)"/>
+  <text
+    x="32"
+    y="64"
+    fill="#041609"
+    font-family="Space Grotesk, Inter, sans-serif"
+    font-weight="600"
+    font-size="48"
+  >
+    F
+  </text>
+</svg>

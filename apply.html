@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felspar — Apply for Funding</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page apply-page">
+      <header class="nav nav--compact">
+        <div class="nav__brand">
+          <span class="nav__glyph">F</span>
+          <span class="nav__name">Felspar</span>
+        </div>
+        <nav class="nav__links">
+          <a href="index.html">Overview</a>
+          <a href="our-lending-philosophy.html">Our Lending Philosophy</a>
+          <div class="nav__dropdown">
+            <a href="#" class="nav__dropdown-toggle" role="button">Loan Programs</a>
+            <div class="nav__dropdown-menu">
+              <a href="loan-program-fix-flip.html">Fix &amp; Flip</a>
+              <a href="loan-program-first-flip.html">First Flip</a>
+              <a href="loan-program-bridge.html">Bridge</a>
+              <a href="loan-program-wholetail.html">Wholetail</a>
+              <a href="loan-program-coming-soon.html">Coming Soon</a>
+            </div>
+          </div>
+          
+          
+        </nav>
+        <div class="nav__cta">
+          <a class="btn btn--solid" href="#start">Apply now</a>
+        </div>
+      </header>
+      <main class="apply-main">
+        <section id="start" class="apply-hero">
+          <div class="apply-hero__left">
+            <p class="eyebrow">Bridge &amp; rehab capital</p>
+            <h1>Submit your project details in minutes.</h1>
+            <p class="subtitle">
+              Share the property, scope, and budget. Our team responds the same day with a term sheet tailored to your plan.
+            </p>
+          </div>
+          <div class="apply-hero__right">
+            <form class="apply-form" action="mailto:funding@felsparlending.com" method="post" enctype="text/plain">
+              <h2>Tell us about the deal</h2>
+              <p class="subtitle">Complete the quick form below—we respond within hours.</p>
+              <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Full name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="name@company.com" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" />
+              </div>
+              <div class="form-group form-group--split">
+                <div>
+                  <label for="property-type">Property type</label>
+                  <select id="property-type" name="property-type">
+                    <option value="">Select</option>
+                    <option>Single-family</option>
+                    <option>Townhome</option>
+                    <option>Multifamily</option>
+                    <option>Mixed-use</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="loan-program">Loan program</label>
+                  <select id="loan-program" name="loan-program">
+                    <option value="">Select</option>
+                    <option>Fix &amp; Flip</option>
+                    <option>First Flip</option>
+                    <option>Bridge</option>
+                    <option>Wholetail</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="street">Street address</label>
+                <input type="text" id="street" name="street" placeholder="123 Main St" />
+              </div>
+              <div class="form-group form-group--split">
+                <div>
+                  <label for="city">City</label>
+                  <input type="text" id="city" name="city" placeholder="City" />
+                </div>
+                <div>
+                  <label for="state">State</label>
+                  <input type="text" id="state" name="state" placeholder="State" />
+                </div>
+              </div>
+              <div class="form-group form-group--split">
+                <div>
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip" placeholder="Zip code" />
+                </div>
+                <div>
+                  <label for="market">Market</label>
+                  <input type="text" id="market" name="market" placeholder="Metro or submarket focus" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="property-photo">Property photo</label>
+                <input type="url" id="property-photo" name="property-photo" placeholder="Link to Dropbox, Drive, or hosted image" />
+                <p class="form-hint">Optional, but sharing a hosted photo link helps accelerate review.</p>
+              </div>
+              <div class="form-group form-group--split">
+                <div>
+                  <label for="purchase-price">Purchase price</label>
+                  <input type="text" id="purchase-price" name="purchase-price" placeholder="$" />
+                </div>
+                <div>
+                  <label for="rehab-budget">Rehab budget</label>
+                  <input type="text" id="rehab-budget" name="rehab-budget" placeholder="$" />
+                </div>
+              </div>
+              <div class="form-group form-group--split">
+                <div>
+                  <label for="arv">After-repair value (ARV)</label>
+                  <input type="text" id="arv" name="arv" placeholder="$" />
+                </div>
+                <div>
+                  <label for="timeline">Timeline</label>
+                  <select id="timeline" name="timeline">
+                    <option value="">Select</option>
+                    <option>0-3 months</option>
+                    <option>3-6 months</option>
+                    <option>6-9 months</option>
+                    <option>9-12 months</option>
+                    <option>12+ months</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="experience">Project experience</label>
+                <select id="experience" name="experience">
+                  <option value="">Select</option>
+                  <option>1st project</option>
+                  <option>2-5 projects</option>
+                  <option>6-10 projects</option>
+                  <option>10+ projects</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="notes">Scope &amp; notes</label>
+                <textarea id="notes" name="notes" rows="4" placeholder="Share the rehab scope, permits, comps, or anything else we should know."></textarea>
+              </div>
+              <button type="submit" class="btn btn--solid btn--full">Submit application</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer footer--compact">
+        <div class="footer__brand">
+          <span class="nav__glyph">F</span>
+          <span>Felspar</span>
+        </div>
+        <div class="footer__links">
+          <a href="mailto:hello@felsparlending.com">hello@felsparlending.com</a>
+          <a href="index.html#apply">Back to site</a>
+        </div>
+      </footer>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
