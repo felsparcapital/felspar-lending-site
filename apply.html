@@ -49,9 +49,16 @@
             </p>
           </div>
           <div class="apply-hero__right">
-            <form class="apply-form" action="mailto:funding@felsparlending.com" method="post" enctype="text/plain">
+            <form
+              class="apply-form"
+              action="https://formsubmit.co/funding@felsparlending.com"
+              method="post"
+            >
               <h2>Tell us about the deal</h2>
               <p class="subtitle">Complete the quick form below—we respond within hours.</p>
+              <input type="hidden" name="_subject" value="New Felspar Funding Request" />
+              <input type="hidden" name="_next" value="https://www.felspar.com/apply-success.html" />
+              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
               <div class="form-group">
                 <label for="name">Your name</label>
                 <input type="text" id="name" name="name" placeholder="Full name" />
