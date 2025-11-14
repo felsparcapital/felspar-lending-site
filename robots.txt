@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /brokers.html
 
 Sitemap: https://www.felsparlending.com/sitemap.xml
