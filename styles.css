@@ -2022,6 +2022,14 @@ h1 {
   color: rgba(255, 255, 255, 0.65);
   line-height: 1.5;
 }
+.seo-note {
+  width: min(92%, 880px);
+  margin: 8px auto 24px;
+  padding-left: 32px;
+  font-size: 13px;
+  color: rgba(235, 252, 242, 0.68);
+  line-height: 1.65;
+}
 
 .first-main {
   width: 100%;
@@ -2091,4 +2099,13 @@ h1 {
   margin: 0;
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.6;
+}
+
+.fix-grid h1 {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
