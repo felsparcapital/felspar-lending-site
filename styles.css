@@ -2023,12 +2023,12 @@ h1 {
   line-height: 1.5;
 }
 .seo-note {
-  width: min(92%, 880px);
+  width: min(92%, 820px);
   margin: 8px auto 24px;
   padding-left: 32px;
-  font-size: 13px;
-  color: rgba(235, 252, 242, 0.68);
-  line-height: 1.65;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.5;
 }
 
 .first-main {
