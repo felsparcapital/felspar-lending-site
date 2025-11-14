@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /brokers.html
+Disallow: /loan-program-coming-soon.html
 
 Sitemap: https://www.felsparlending.com/sitemap.xml
