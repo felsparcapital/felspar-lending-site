@@ -545,6 +545,8 @@ h1 {
 
 .marquee__track {
   display: flex;
+  flex-wrap: nowrap;
+  min-width: max-content;
   gap: 80px;
   list-style: none;
   padding: 0;
@@ -553,11 +555,12 @@ h1 {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.45);
-  animation: marquee 26s linear infinite;
+  animation: marquee 45s linear infinite;
 }
 
 .marquee__track li {
   display: inline-flex;
+  flex: 0 0 auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
